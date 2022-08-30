@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Reserve show";
+}
+
+<form method="post" action="~/Home/ReserveShow/">
+    <input type="text" name="id" value="@ViewBag.Show.Id" hidden="hidden">
+    <br />
+    <label for="firstName">First name:</label>
+    <input type="text" placeholder="Enter first name" name="firstName" required>
+    <br />
+    <label for="lastName">Last name:</label>
+    <input type="text" placeholder="Enter last name" name="lastName" required>
+    <br />
+     
+    <label for="phone">Phone:</label>
+    <input type="tel" placeholder="Enter telephone number" name="phone" required>
+    <br />
+
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter email" name="email" required>
+    <br />
+
+    
+    Show Price: @ViewBag.Show.Price$
+    <br />
+
+    <button type="submit" class="button">Reserve</button>
+</form>

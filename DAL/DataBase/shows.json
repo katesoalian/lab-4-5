@@ -1,0 +1,15 @@
+{
+  "$type": "System.Collections.Generic.List`1[[DAL.Entities.Show, DAL]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "DAL.Entities.Show, DAL",
+      "Id": 0,
+      "Name": "Inferno",
+      "Author": "Den Brown",
+      "Genre": "Adventure",
+      "Date": "29.6.2022",
+      "Price": 10,
+      "FreePlaces": 99
+    }
+  ]
+}

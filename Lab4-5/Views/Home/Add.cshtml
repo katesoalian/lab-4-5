@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Add tour";
+}
+
+<form method="post" action="~/Home/Add/">
+            <label for="townTitle">Name: </label>
+            <input type="text" placeholder="Name" name="name" required>
+            <br />
+
+            <label for="townTitle">Author: </label>
+            <input type="text" placeholder="Author" name="author" required>
+            <br />
+
+            <label for="townTitle">Genre: </label>
+            <input type="text" placeholder="Genre" name="genre" required>
+            <br />
+            
+            <label for="hotelStars">Day: </label>
+            <select class="custom-select" name="day" required>
+                <option selected disabled>Choose show day: </option>
+                @for(int i = 1; i <= 31; i++)
+                {
+                   <option value=@i>@i</option>
+                }
+            </select>
+            <label for="hotelStars">Month: </label>
+            <select class="custom-select" name="month" required>
+                <option selected disabled>Choose a show month: </option>
+                @for(int i = 0; i < ViewBag.Months.Count; i++)
+                {
+                   <option value=@i>@ViewBag.Months[i]</option>
+                }
+            </select>
+            <br />
+
+            <label for="townTitle">Places: </label>
+            <input type="number" placeholder="Places" name="places" required>
+            <br />
+
+            <label for="price">Price:</label>
+            <input type="number" placeholder="Price" name="price" required>
+            <br />
+
+            <button type="submit" class="button">Add</button>
+    </form>

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="shows">
+        <div class="masonry-layout">
+            @foreach (var item in @ViewBag.Shows)
+            {
+                <div class="masonry-layout__panel">
+                    <div class="masonry-layout__panel-content">
+                        <a href="~/Home/Show/@item.Id">
+                            <div class="show" id="box">
+                                <div class="content"><div>Name: @item.Name</div><div>Author: @item.Author</div><div>Date: @item.Date</div><div>Price: @item.Price</div></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+</div>

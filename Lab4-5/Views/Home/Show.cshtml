@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Show Page";
+}
+
+<div class="tour-information">
+    <div>
+        <p class="info">
+            Name: @ViewBag.Show.Name<br />
+            Author: @ViewBag.Show.Author<br />
+            Genre: @ViewBag.Show.Genre<br />
+            Date: @ViewBag.Show.Date<br />
+            Free places: @ViewBag.Show.FreePlaces<br />
+            Price: @ViewBag.Show.Price$<br />
+        </p>
+    </div>
+
+    
+    @if (ViewBag.PlacesExist)
+    {
+        <form method="get" action="~/Home/ReserveShow/@ViewBag.ShowId">
+            <button class="button" type="submit">Reserve show</button>
+        </form>
+    }
+    else
+    {
+        <div>There are no vacancies for the show</div>
+    }
+
+</div>

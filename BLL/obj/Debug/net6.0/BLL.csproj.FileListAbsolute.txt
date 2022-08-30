@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\Lab4-5\BLL\bin\Debug\net6.0\BLL.deps.json
+C:\Users\admin\source\repos\Lab4-5\BLL\bin\Debug\net6.0\BLL.dll
+C:\Users\admin\source\repos\Lab4-5\BLL\bin\Debug\net6.0\BLL.pdb
+C:\Users\admin\source\repos\Lab4-5\BLL\bin\Debug\net6.0\DAL.dll
+C:\Users\admin\source\repos\Lab4-5\BLL\bin\Debug\net6.0\DAL.pdb
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.dll
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\refint\BLL.dll
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\BLL.pdb
+C:\Users\admin\source\repos\Lab4-5\BLL\obj\Debug\net6.0\ref\BLL.dll
